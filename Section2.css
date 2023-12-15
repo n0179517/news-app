@@ -1,0 +1,38 @@
+.section2-main-container {
+  background-color: hsl(240, 100%, 5%);
+  width: 30%;
+  text-align: start;
+  color: white;
+  height: 35rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.section2-header{
+    font-weight: 700;
+    color: hsl(35, 77%, 62%);
+    font-size: 40px;
+    margin: 1.5rem 1.5rem 0 1.5rem;
+}
+
+.article-main-contain{
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.article-header{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.article-tagline{
+    font-size: 15px;
+}
+
+hr{
+    background-color: white;
+    height: 2px;
+}

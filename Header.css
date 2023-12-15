@@ -1,0 +1,17 @@
+.bg-body-tertiary{
+    background-color: hsl(36, 100%, 99%) !important;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ms-auto{
+    font-family: 'Inter', sans-serif;
+    color: hsl(233, 8%, 79%);
+    
+}
+
+.nav-link{
+    margin-left: 1rem;
+}

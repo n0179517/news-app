@@ -1,0 +1,61 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.main-container {
+  width: 66%;
+  height: 35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.image-container {
+  width: 100%;
+}
+
+.image {
+  width: 100%;
+}
+
+.lower-contianer {
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lower-item {
+  width: 45%;
+}
+
+#title {
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 800;
+  text-align: start;
+}
+#info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#info-text {
+  font-size: 15px;
+  text-align: start;
+}
+
+#button {
+  width: 50%;
+  background-color: hsl(5, 85%, 63%);
+  color: white;
+  font-weight: 700;
+  line-height: 250%;
+  letter-spacing: 2px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  padding: 8px 16px;
+}
+
+#button:hover {
+  background-color: hsl(5, 85%, 73%);
+}

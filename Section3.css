@@ -1,0 +1,27 @@
+.section3-main-container{
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tech-article{
+    display: flex;
+    text-align: start;
+    width: 30%;
+}
+
+.counter{
+    font-size: 25px;
+    color: hsl(233, 8%, 79%);
+    font-weight: 800;
+}
+
+.tech-title{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.tech-tag{
+    font-size: 13px;
+    color: hsl(236, 13%, 42%);
+}
